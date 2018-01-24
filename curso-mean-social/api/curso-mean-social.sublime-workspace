@@ -25,19 +25,19 @@
 			}
 		},
 		{
-			"file": "app.js",
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 274,
+				"buffer_size": 435,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.js",
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 415,
+				"buffer_size": 474,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -88,6 +88,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/app.js"
 	],
 	"find":
 	{
@@ -157,19 +158,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app.js",
+					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 274,
+						"buffer_size": 435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								274,
-								274
+								435,
+								435
 							]
 						],
 						"settings":
@@ -185,19 +186,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "index.js",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 415,
+						"buffer_size": 474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								415,
-								415
+								429,
+								429
 							]
 						],
 						"settings":
