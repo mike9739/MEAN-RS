@@ -4,8 +4,60 @@
 		"selected_items":
 		[
 			[
+				"r",
+				"return"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"n",
+				"nick"
+			],
+			[
 				"re",
-				"req"
+				"return"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"sa",
+				"saveUser"
+			],
+			[
+				"us",
+				"userStored"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"b",
+				"bcrypt"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"p",
+				"params"
+			],
+			[
+				"fun",
+				"function"
 			],
 			[
 				"me",
@@ -30,10 +82,6 @@
 			[
 				"s",
 				"Schema"
-			],
-			[
-				"use",
-				"UserSchema"
 			],
 			[
 				"st",
@@ -79,19 +127,33 @@
 			}
 		},
 		{
+			"contents": "'use strict'\nvar bcrypt = require('bcrypt-nodejs');\nvar User = require('../models/user');\n\nfunction home(req,res) {\n\tres.status(200).send({\n\t\tmessage:'aqui va existir algo piolisimamente piolas'\n\t});\n}\n\nfunction pruebas(req,res){\n\tconsole.log(req.body);\n\tres.status(200).send({\n\t\tmessage:'Hola'\n\t});\n}\n\nfunction saveUser(req,res){\n\tvar params = req.body;\n\tvar user = new User();\n\tif (params.name && params.surname && params.nick && params.email && params.password) {\n\t\tuser.name = params.name;\n\t\tuser.nick = params.nick;\n\t\tuser.surname = params.surname;\n\t\tuser.email = params.email;\n\t\tuser.role = 'ROLE_USER'\n\t\tuser.image = null;\n\t\t\n\t\t//Comprobación de usuarios duplicados\n\t\tUser.find({ $or: [\n\t\t\t{email: user.email},\n\t\t\t{nick: user.nick}\n\t\t\t]}).exec((err,users)=>{\n\t\t\t\tif(err) return res.status(500).send({message:'Error en la pericion de usuarios'});\n\n\t\t\t\tif (users && users.lenght >=1) \n\t\t\t\t{ \n\t\t\t\t\treturn res.status(200).send({message:'el usuario ya existe por favor introduce otro'});\n\t\t\t\t}\n\t\t\t});\n//encriptación de las contraseñas y guarda los datos\n\t\tbcrypt.hash(params.password,null,null,(err,hash)=>{\n\t\t\tuser.password = hash;\n\t\t\tuser.save((err,userStored)=>{\n\t\t\t\tif(err) return res.status(500).send({message:'Error al guardar el usuario'});\n\t\t\t\t\tif (userStored) {\n\t\t\t\t\t\tres.status(200).send({user : userStored});\n\t\t\t\t\t}\n\t\t\t\t\telse{\n\t\t\t\t\t\tres.status(404).send({message:'No se ha registrado el usuario'});\n\t\t\t\t\t}\n\t\t\t});\n\t\t});\n\n\n\t}\n\telse\n\t{\n\t\tres.status(200).send({\n\t\t\tmessage:'Envia todos los campos necesarios'\n\t\t});\n\t}\n\n}\n\nmodule.exports = {\n\thome,\n\tpruebas,\n\tsaveUser\n}",
 			"file": "controllers/user.js",
+			"file_size": 1809,
+			"file_write_time": 131624433928826498,
 			"settings":
 			{
-				"buffer_size": 301,
+				"buffer_size": 1578,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter\n  \n  Welcome to BracketHighlighter!  For a quick start guide, please go to  \n  `Preferences->Package Settings->BracketHighlighter->Quick Start Guide`.\n",
+			"settings":
+			{
+				"buffer_size": 264,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
 			"file": "routes/user.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 283,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -100,7 +162,8 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 343,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -112,7 +175,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 136.0,
 		"last_filter": "package Control: install Package ",
 		"selected_items":
 		[
@@ -125,7 +188,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 384.0
+		"width": 592.0
 	},
 	"console":
 	{
@@ -148,6 +211,7 @@
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/models",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/routes"
 	],
 	"file_history":
@@ -160,7 +224,7 @@
 	],
 	"find":
 	{
-		"height": 59.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -174,6 +238,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" >="
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -191,7 +256,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -221,7 +286,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -237,8 +302,8 @@
 						"selection":
 						[
 							[
-								435,
-								435
+								322,
+								322
 							]
 						],
 						"settings":
@@ -249,7 +314,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -265,8 +330,8 @@
 						"selection":
 						[
 							[
-								276,
-								276
+								224,
+								224
 							]
 						],
 						"settings":
@@ -277,7 +342,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -286,20 +351,52 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 301,
+						"buffer_size": 1578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
+								995,
+								995
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -309,20 +406,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "routes/user.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								283,
+								283
 							]
 						],
 						"settings":
@@ -337,20 +434,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 499,
+						"buffer_size": 343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								465,
-								237
+								310,
+								310
 							]
 						],
 						"settings":
