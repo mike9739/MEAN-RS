@@ -10,7 +10,8 @@ var payload = {
 //sub = id
 	sub: user._id,
 	name: user.name,
-	surname: user.email,
+	surname: user.surname,
+	email: user.email,
 	nick: user.nick,
 	role: user.role,
 	image: user.image,
