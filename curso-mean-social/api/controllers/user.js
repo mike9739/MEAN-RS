@@ -3,6 +3,8 @@ var bcrypt = require('bcrypt-nodejs');
 var User = require('../models/user');
 var jwt = require('../Services/jwt');
 var mongoosePaginate = require('mongoose-pagination');
+var fs = require('fs');
+var path = require('path');
 
 //metodos de prueba
 function home(req,res) {
@@ -167,9 +169,76 @@ function updateUser(req,res)
 	 	return res.status(200).send({user: userUpdated});
 
 	 });
-
-
 }
+
+//subir archivos de imagen / avart de usuario
+ function uploadImage(req,res)
+ {
+ 	var userId = req.params.id;
+ 	
+	if (req.files) 
+	{
+		var file_path = req.files.image.path;
+		var file_split = file_path.split('\\');
+		var file_name = file_split[2];
+		var ext_split = file_name.split('\.');
+		var file_ext = ext_split[1];
+		
+		if (userId != req.user.sub)
+	{
+		return removeFileOfUploads(res,file_path,'no tienes permiso para modificar estos datos :D')
+	}
+
+		if (file_ext == 'png' || file_ext == 'jpg' || file_ext == 'jpeg' || file_ext == 'gif') 
+		{
+			//actualizar documento de usuario
+			User.findByIdAndUpdate(userId,{image: file_name},{new: true} ,(err,userUpdated) => 
+				{
+				if (err) return res.status(500).send({message:'No se ha podido actualizar el usuario'});
+
+	 			if (!userUpdated) return res.status(404).send({message: 'No se ha podido actualizar el usuario'});
+
+	 			return res.status(200).send({user: userUpdated});
+				});
+		}
+			else{
+				return removeFileOfUploads(res,file_path,'Por favor cargue un archivo jpg o png ');
+			}
+
+
+	}
+	else
+	{
+		return res.status(200).send({message:'no se han subido imgenes'});
+	}
+
+ }
+function removeFileOfUploads(res,file_path,message)
+ {
+ 	fs.unlink(file_path,(err) =>
+					{
+						 return res.status(200).send({message: message});
+					});
+ }
+
+ function getImageFile(req,res)
+ {
+ 	var imageFile = req.params.imageFile;
+ 	var path_file = './uploads/users/'+imageFile;
+ 	fs.exists(path_file,(exists)=>
+ 	{
+ 		if (exists) 
+ 		{
+ 			res.sendFile(path.resolve(path_file));
+ 		}
+ 		else
+ 		{
+ 			res.status(200).send({message: 'No existe la imagen' });
+ 		}
+ 	});
+
+ }
+
 
 module.exports = {
 	home,
@@ -178,5 +247,7 @@ module.exports = {
 	loginUser,
 	getUser,
 	getUsers,
-	updateUser
+	updateUser,
+	uploadImage,
+	getImageFile
 }
