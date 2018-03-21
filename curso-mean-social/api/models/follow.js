@@ -1,9 +1,9 @@
 'use strict'
-var moongose = require('moongose');
-var Schema = moongose.Schema;
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
 var FollowSchema = Schema({
 	user: {type: Schema.ObjectId,ref:'User'},
 	followed: {type: Schema.ObjectId,ref:'User'}
 });
-module.exports = moongose.model('Follow',FollowSchema);
+module.exports = mongoose.model('Follow',FollowSchema);
