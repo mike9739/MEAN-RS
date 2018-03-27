@@ -5,6 +5,7 @@ var jwt = require('../Services/jwt');
 var mongoosePaginate = require('mongoose-pagination');
 var fs = require('fs');
 var path = require('path');
+var Follow = require('../models/follow')
 
 //metodos de prueba
 function home(req,res) {
@@ -120,11 +121,40 @@ function getUser(req,res){
 	User.findById(userId,(err,user) => {
 		if (err) return res.status(500).send({message:'Error en la petición'});
 		if (!user) return res.status(404).send({message:'El usuario no existe'});
+		followThisUser(req.user.sub,userId).then((value)=>{
+			user.password = undefined;
+			return res.status(200).send({
+				user,
+				following: value.following,
+				followed: value.followed
 
-		return res.status(200).send({user});
+			});
+		});
+	
+
 	});
 }
 
+async function followThisUser(identity_user_id , user_id)
+{
+	var following = await Follow.findOne({"user":identity_user_id,"followed":user_id}).exec((err,follow)=>{
+			if (err) {
+				return handleError(err);
+			}
+			return follow;
+		});	
+
+	var followed = await Follow.findOne({"user":user_id,"followed":identity_user_id}).exec((err,follow)=>{
+			if (err) {
+				return handleError(err);
+			}
+			return follow;
+		});	
+	return {
+		following: following,
+		followed: followed
+	}
+}
 
 //devolver un listado de usuarios paginados
 
@@ -139,16 +169,90 @@ function getUsers(req,res) {
  			if (err) return res.status(500).send({message:'Error en la petición'});
  			if (!users) return res.status(404).send({message: 'No hay usuarios disponibles'});
 
- 			return res.status(200).send({
+ 			followUsersIds(identity_user_id).then((value) => {
+ 				return res.status(200).send({
  				users,
+ 				users_following: value.following,
+ 				users_follow_me: value.followed,
  				total,
  				pages: Math.ceil(total/itemPerPage)
  			});
 
 
+ 			});
+ 		
+
  		});
  	}
 }
+
+// duncion asincrona para deveolver el istado de follows y usuarios
+async function followUsersIds(user_id)
+{
+		var following = await Follow.find({"user":user_id}).select({'_id':0,'__v':0,'user':0}).exec((err,follows) => {
+		return follows;
+		});
+
+		var followed = await Follow.find({"followed":user_id}).select({'_id':0,'__v':0,'followed':0}).exec((err,follows) => {
+		return follows;
+	});
+
+//procesar following ids
+	var following_clean = [];
+
+		following.forEach((follow)=>
+			{
+				following_clean.push(follow.followed);
+
+			});
+		
+//procesar followed ids
+	var followed_clean = [];
+		followed.forEach((follow)=>{
+			followed_clean.push(follow.user);
+		});
+	
+
+
+
+
+		return {
+			following: following_clean,
+			followed: followed_clean
+		}
+}
+//devolver el contador de follows , etc
+function getCounters(req,res)
+{
+	var userId = req.user.sub;
+	if (req.params.id) {
+		userId = req.params.id;
+	}
+	getCountFollows(userId).then((value)=>{
+		return res.status(200).send(value);
+
+	});
+}
+
+async function getCountFollows(user_id)
+{
+	var following = await Follow.count({"user":user_id}).exec((err,count)=>{
+		if (err)return handleError(err);
+		return count;
+
+	});
+	var followed = await Follow.count({"followed":user_id}).exec((err,count)=>
+		{
+				if (err){ return handleError(err);}
+				
+				return count;
+		});
+	return {
+		following: following,
+		followed: followed
+	}
+}
+
 //Edición de datos de usuario
 
 function updateUser(req,res)
@@ -170,6 +274,7 @@ function updateUser(req,res)
 
 	 });
 }
+
 
 //subir archivos de imagen / avart de usuario
  function uploadImage(req,res)
@@ -247,7 +352,9 @@ module.exports = {
 	loginUser,
 	getUser,
 	getUsers,
+	getCounters,
 	updateUser,
 	uploadImage,
-	getImageFile
+	getImageFile,
+
 }
