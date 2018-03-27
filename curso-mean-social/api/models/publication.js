@@ -10,4 +10,4 @@ var PublicationSchema = Schema({
 	user: {type: Schema.ObjectId,ref: 'User'}
 
 });
-module.exports = mongoose.model('Publication','PublicationSchema');
+module.exports = mongoose.model('Publication',PublicationSchema);
