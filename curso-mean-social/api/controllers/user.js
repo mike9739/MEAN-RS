@@ -57,9 +57,7 @@ function saveUser(req,res){
 			});
 		});
 
-								}
-
-
+			}	
 							});
 	
 
