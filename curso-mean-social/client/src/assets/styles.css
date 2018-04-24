@@ -1,3 +1,14 @@
+/*Generales*/
+.h1-strong{
+	font-size: 35px;
+	font-weight: bold;
+	margin: 13px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+
 /* Cabecera*/
 .navigation{
 	margin: 0px;
