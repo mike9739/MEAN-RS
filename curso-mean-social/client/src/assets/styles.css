@@ -8,7 +8,13 @@
 	margin-bottom: 20px;
 }
 
-
+.active{
+	background: #0ba0da;
+	border-bottom: 4px solid black;
+}
+. pointer{
+	cursor: pointer;
+}
 /* Cabecera*/
 .navigation{
 	margin: 0px;
@@ -18,11 +24,23 @@
 
 }
 .navigation .navbar
-{
+*{
 	border-radius: 0px !important;
 	background: #00b8ff !important;
 	border:none;
 }
 .navigation .navbar *{
+	color: white !important;
+}
+.navigation .navbar a:hover{
+	background: #0ba0da !important;
+	border-bottom: 4px solid white !important;
+}
+.jumbotron{
+	padding: 25px;
+	border-radius: 5px;
+	text-align: center;
+}
+.navigation .navbar .dropdown-menu *{
 	color: white !important;
 }

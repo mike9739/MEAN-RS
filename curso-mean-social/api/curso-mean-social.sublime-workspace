@@ -4,12 +4,176 @@
 		"selected_items":
 		[
 			[
+				"_r",
+				"_router\tproperty"
+			],
+			[
+				"r",
+				"Router\talias"
+			],
+			[
+				"imp",
+				"import\tkeyword"
+			],
+			[
+				"navbar-nv",
+				"navbar-nav"
+			],
+			[
+				"glyphicon-l",
+				"glyphicon-log-out \tBootstrap 3 Class"
+			],
+			[
+				"glyp",
+				"glyphicon-cog \tBootstrap 3 Class"
+			],
+			[
+				"drop",
+				"dropdown-menu \tBootstrap 3 Class"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"glyphicon-log",
+				"glyphicon-log-out \tBootstrap 3 Class"
+			],
+			[
+				"glyphicon-c",
+				"glyphicon-cog \tBootstrap 3 Class"
+			],
+			[
+				"gly",
+				"glyphicon-user \tBootstrap 3 Class"
+			],
+			[
+				"d",
+				"dropdown-menu-left \tBootstrap 3 Class"
+			],
+			[
+				"ca",
+				"caret \tBootstrap 3 Class"
+			],
+			[
+				"dropdown-",
+				"dropdown-toggle \tBootstrap 3 Class"
+			],
+			[
+				"nav",
+				"navbar-right \tBootstrap 3 Class"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"btn-fe",
+				"btn-default \tBootstrap 3 Class"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"ro",
+				"routerLinkActive]=\"['active"
+			],
+			[
+				"im",
+				"import\timports a module …"
+			],
+			[
+				"col-lg-o",
+				"col-lg-offset-2 \tBootstrap 3 Class"
+			],
+			[
+				"co",
+				"col-lg-10 \tBootstrap 3 Class"
+			],
+			[
+				"Com",
+				"Component\talias"
+			],
+			[
+				"Do",
+				"DoCheck\talias"
+			],
+			[
+				"On",
+				"OnInit\talias"
+			],
+			[
+				"glyphicon-us",
+				"glyphicon-user \tBootstrap 3 Class"
+			],
+			[
+				"glyphicon-lo",
+				"glyphicon-log-in \tBootstrap 3 Class"
+			],
+			[
+				"navba",
+				"navbar-right \tBootstrap 3 Class"
+			],
+			[
+				"navbar-n",
+				"navbar-nav \tBootstrap 3 Class"
+			],
+			[
+				"na",
+				"navbar \tBootstrap 3 Class"
+			],
+			[
+				"get",
+				"getIdentity\tmethod"
+			],
+			[
 				"pr",
 				"private\tkeyword"
 			],
 			[
 				"s",
 				"services\tdirectory"
+			],
+			[
+				"i",
+				"import\tkeyword"
+			],
+			[
+				"to",
+				"token\tlet"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"loca",
+				"localStorage\tvar"
+			],
+			[
+				"lo",
+				"localStorage\tvar"
+			],
+			[
+				"er",
+				"errorMessage\tlocal var"
+			],
+			[
+				"us",
+				"user\tproperty"
+			],
+			[
+				"htt",
+				"HttpHeaders\talias"
+			],
+			[
+				"btn-s",
+				"btn-success \tBootstrap 3 Class"
 			],
 			[
 				"nick",
@@ -24,10 +188,6 @@
 				"return\tkeyword"
 			],
 			[
-				"u",
-				"user\tproperty"
-			],
-			[
 				"use",
 				"_userService\tproperty"
 			],
@@ -40,16 +200,8 @@
 				"console\tvar"
 			],
 			[
-				"c",
-				"common\tdirectory"
-			],
-			[
 				"mar",
 				"margin-bottom"
-			],
-			[
-				"pa",
-				"padding-bottom"
 			],
 			[
 				"borde",
@@ -120,10 +272,6 @@
 				"from\tkeyword"
 			],
 			[
-				"im",
-				"import\tkeyword"
-			],
-			[
 				"Reg",
 				"RegisterComponent\talias"
 			],
@@ -152,28 +300,12 @@
 				"templateUrl\tproperty"
 			],
 			[
-				"co",
-				"color"
-			],
-			[
 				"bord",
 				"border-radius"
 			],
 			[
-				"na",
-				"navbar"
-			],
-			[
 				"ti",
 				"title\tTag"
-			],
-			[
-				"nav",
-				"navbar"
-			],
-			[
-				"d",
-				"div\tTag"
 			],
 			[
 				"de",
@@ -198,18 +330,6 @@
 			[
 				"user",
 				"userId〔variable〕"
-			],
-			[
-				"us",
-				"user"
-			],
-			[
-				"get",
-				"getEmmitMessage"
-			],
-			[
-				"r",
-				"return"
 			],
 			[
 				"sa",
@@ -328,10 +448,6 @@
 				"identity_user_id"
 			],
 			[
-				"i",
-				"itemsPerPage"
-			],
-			[
 				"t",
 				"total"
 			],
@@ -398,69 +514,53 @@
 			[
 				"usu",
 				"usuarios"
-			],
-			[
-				"E",
-				"Error"
-			],
-			[
-				"se",
-				"send"
-			],
-			[
-				"to",
-				"token"
-			],
-			[
-				"users",
-				"users"
-			],
-			[
-				"o",
-				"ObjectId"
-			],
-			[
-				"bo",
-				"bodyParser"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/user.service.ts",
+			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.html",
 			"settings":
 			{
-				"buffer_size": 640,
+				"buffer_size": 2261,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
+			"settings":
+			{
+				"buffer_size": 729,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.html",
+			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.ts",
 			"settings":
 			{
-				"buffer_size": 64,
+				"buffer_size": 877,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "import {Component,OnInit } from '@angular/core';\nimport {Router, ActivatedRoute, Params} from '@angular/router';\nimport {User} from  '../../models/user'\nimport {UserService} from '../../services/user.service';\n\n\n@Component({\n\tselector: 'login',\n\ttemplateUrl: './login.component.html',\n\tproviders [UserService],\n})\nexport class LoginComponent implements OnInit{\n\tpublic title:string;\n\tpublic user:User;\n\n\tconstructor(\n\t\tprivate _route:ActivatedRoute,\n\t\tprivate _router: Router,\n\t\tprivate _userService: UserService\n\t\t){\n\t\tthis.title = 'Bienvenido, por favor inicia sesión';\n\t\tthis.user = new User(\n\t\t\t\"\",\n\t\t\t\"\",\n\t\t\t\"\",\n\t\t\t\"\",\n\t\t\t\"\",\n\t\t\t\"\",\n\t\t\t\"\");\n\t}\n\tngOnInit(){\n\t\tconsole.log('componente de login cargado');\n\t}\n}\n",
 			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.ts",
-			"file_size": 324,
-			"file_write_time": 131674559927684449,
 			"settings":
 			{
-				"buffer_size": 713,
+				"buffer_size": 2184,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.ts",
+			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home/home.component.html",
 			"settings":
 			{
-				"buffer_size": 1060,
+				"buffer_size": 437,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -518,28 +618,34 @@
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register"
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets"
 	],
 	"file_history":
 	[
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.css",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.routing.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.module.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home/home.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home/home.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/user.service.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/models/user.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/models/user.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/app.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/global.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.module.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/services/user.service.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.html",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.css",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/models/message.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/models/publication.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/models/follow.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/models/user.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.routing.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.html",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/package.json",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/.angular-cli.json",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/typings.d.ts",
@@ -559,7 +665,6 @@
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/follow.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/routes/follow.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/index.js",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/models/user.js",
 		"/C/Users/migu_/OneDrive - Universidad de Guanajuato/ABD/motorolam.sql",
 		"/C/Users/migu_/OneDrive - Universidad de Guanajuato/ABD/morescripts.sql",
 		"/C/Users/migu_/OneDrive - Universidad de Guanajuato/ABD/motorola - copia.sql",
@@ -567,7 +672,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -603,222 +708,39 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/user.service.ts",
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 640,
+						"buffer_size": 2261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								640,
-								640
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 64,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
+								1941,
+								1941
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 15,
+							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
 									"1":
 									[
-										60,
-										63
+										1938,
+										1940
 									]
 								},
 								"icon":
@@ -833,8 +755,8 @@
 								{
 									"1":
 									[
-										1,
-										4
+										1786,
+										1788
 									]
 								},
 								"unmatched":
@@ -843,16 +765,36 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -863,52 +805,47 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_double_quote_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										1938,
+										1940
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										1786,
+										1788
+									]
 								},
 								"unmatched":
 								{
@@ -916,16 +853,36 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -936,372 +893,62 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_double_quote_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 723.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.ts",
+					"buffer": 1,
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								609,
-								609
+								224,
+								224
 							]
 						],
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone": 22,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
 									"1":
 									[
-										643,
-										644
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										594,
-										595
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										643,
-										644
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										594,
-										595
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.ts",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1060,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								652,
-								581
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										654,
-										655
+										223,
+										224
 									]
 								},
 								"icon":
@@ -1316,26 +963,46 @@
 								{
 									"1":
 									[
-										548,
-										549
+										166,
+										167
 									]
 								},
 								"unmatched":
 								{
 								}
 							},
-							"bracket_highlighter.regions":
+							"bracket_highlighter.clone_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1346,41 +1013,522 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										875,
+										876
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										373,
+										374
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										875,
+										876
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										373,
+										374
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1946,
+								1946
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1923,
+										1924
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1704,
+										1705
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1952,
+										1953
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1704,
+										1705
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
 							"translate_tabs_to_spaces": false,
@@ -1393,10 +1541,224 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home/home.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										82,
+										83
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										73,
+										74
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										82,
+										83
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										73,
+										74
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1404,11 +1766,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 44.0
+		"height": 47.0
 	},
 	"layout":
 	{
@@ -1457,7 +1819,7 @@
 	"project": "curso-mean-social.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -1,6 +1,12 @@
 <div class="col-lg-5">
  <h1 class="h1-str">{{title}}</h1>
  <form #loginForm="ngForm" (ngSubmit)="onSubmit()" class="col-lg-12">
+ 	 <div class="alert alert-sucess" *ngIf="status == 'Success'">
+ 	Bienvenido
+ </div>
+  <div class="alert alert-danger" *ngIf="status == 'error'">
+ 	Por favor revisa tu correo y tu constraseña
+ </div>
  	<p>
 		<label>Email</label>
 		<input type="email" name="email" #email="ngModel" [(ngModel)]="user.email" class="form-control" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
