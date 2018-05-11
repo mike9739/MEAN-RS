@@ -1,5 +1,11 @@
 <div class="col-lg-5">
 	 <h1 class="h1-str">{{title}}</h1>
+	 <div class="alert alert-success" *ngIf="status == 'success'">
+	 	Se han actualizado tus datos correctament cx
+	 </div>
+	 <div class="alert alert-danger" *ngIf="status == 'error'">
+	 	no se han podido actualizar tus datos 
+	 </div>
 	 <form #userEditForm="ngForm" (ngSubmit)="onSubmit()" class="col-lg-12">
 	 	<p>
 	 		<label>Nombre</label>	
