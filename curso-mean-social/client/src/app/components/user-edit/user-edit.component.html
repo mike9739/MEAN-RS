@@ -1,0 +1,35 @@
+<div class="col-lg-5">
+	 <h1 class="h1-str">{{title}}</h1>
+	 <form #userEditForm="ngForm" (ngSubmit)="onSubmit()" class="col-lg-12">
+	 	<p>
+	 		<label>Nombre</label>	
+	 			<input type="text" name="name" #name="ngModel" [(ngModel)]="user.name" class="form-control" required/>
+	 		<span *ngIf="!name.value && name.touched">
+	 			EL nombre es obligatorio
+	 		</span>
+	 	</p>
+	 		<p>
+	 		<label>Apellidos</label>	
+	 			<input type="text" name="surname" #surname="ngModel" [(ngModel)]="user.surname" class="form-control" required/>
+	 		<span *ngIf="!surname.value && surname.touched">
+	 			Los apellidos son obligatorios
+	 		</span>
+	 	</p>
+	 		<p>
+	 		<label>Nick</label>	
+	 			<input type="text" name="nick" #nick="ngModel" [(ngModel)]="user.nick" class="form-control" required/>
+	 		<span *ngIf="!nick.value && nick.touched">
+	 			El nick es obligatorio
+	 		</span>
+	 	</p>
+	 	<p>
+	 		<label>Correo</label>	
+	 			<input type="text" name="email" #email="ngModel" [(ngModel)]="user.email"  class="form-control" required/>
+	 		<span *ngIf="!email.value && email.touched">
+	 			EL nombre es obligatorio
+	 		</span>
+	 	</p>
+	 	<input type="submit" value="{{title}}" class="btn btn-warning" [disabled]="!userEditForm.form.valid">
+	 </form>
+
+</div>
