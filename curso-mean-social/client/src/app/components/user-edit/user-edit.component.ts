@@ -41,7 +41,7 @@ export class UserEditComponent implements OnInit {
 				}
 				else{
 					this.status='success';
-					localStorage.setItem('idemtity',JSON.stringify(this.user));
+					localStorage.setItem('identity',JSON.stringify(this.user));
 					this.identity = this.user;
 					//subida de archivos
 				}

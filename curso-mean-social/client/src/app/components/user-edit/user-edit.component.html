@@ -32,8 +32,12 @@
 	 		<label>Correo</label>	
 	 			<input type="text" name="email" #email="ngModel" [(ngModel)]="user.email"  class="form-control" required/>
 	 		<span *ngIf="!email.value && email.touched">
-	 			EL nombre es obligatorio
+	 			EL email es obligatorio
 	 		</span>
+	 	</p>
+	 	<p>
+	 		<label>Tu foto de perfil</label>
+	 		<input type="file" placeholder="Foto de perfil"/>
 	 	</p>
 	 	<input type="submit" value="{{title}}" class="btn btn-warning" [disabled]="!userEditForm.form.valid">
 	 </form>
