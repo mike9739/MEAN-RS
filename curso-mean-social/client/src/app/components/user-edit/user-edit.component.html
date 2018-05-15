@@ -30,14 +30,17 @@
 	 	</p>
 	 	<p>
 	 		<label>Correo</label>	
-	 			<input type="text" name="email" #email="ngModel" [(ngModel)]="user.email"  class="form-control" required/>
+	 			<input type="text" name="email" #email="ngModel" [(ngModel)]="user.email"  class="form-control" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
 	 		<span *ngIf="!email.value && email.touched">
 	 			EL email es obligatorio
 	 		</span>
 	 	</p>
+	 	<div *ngIf="user.image">
+	 		<img src="{{url + 'get-image-user/'+user.image}}"/>
+	 	</div>
 	 	<p>
 	 		<label>Tu foto de perfil</label>
-	 		<input type="file" placeholder="Foto de perfil"/>
+	 		<input type="file" placeholder="Foto de perfil" (change)="fileChangeEvent($event)"/>
 	 	</p>
 	 	<input type="submit" value="{{title}}" class="btn btn-warning" [disabled]="!userEditForm.form.valid">
 	 </form>
