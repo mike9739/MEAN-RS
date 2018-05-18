@@ -57,3 +57,16 @@
 .navigation .navbar .dropdown-menu *{
 	color: white !important;
 }
+.user-image-for-edit img
+{
+	height: 60px;
+}
+.item-user .image-user{
+	width: 35px;
+	height: 35px;
+	border-radius: 100px;
+	overflow: hidden;
+	margin-top: 9px;
+	margin-right: 2px;
+
+}
