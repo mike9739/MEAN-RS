@@ -61,12 +61,29 @@
 {
 	height: 60px;
 }
-.item-user .image-user{
-	width: 35px;
-	height: 35px;
+.item_user .image_user{
+	width: 75px;
+	height: 75px;
 	border-radius: 100px;
 	overflow: hidden;
-	margin-top: 9px;
-	margin-right: 2px;
+	margin-right: 15px;
 
 }
+.item_user .image_user img
+{
+	width: 120px;
+}
+.item_user .user_name{
+	margin-top: 10px;
+}
+.item_user .user_name .nickname{
+	color: #969393;
+}
+.item_user .user_name .name_surname{
+	color: #00b8ff !important;
+	font-weight: bold;
+}
+.avatar-default{
+	width: 100% !important;
+}
+

@@ -12,7 +12,7 @@ import {GLOBAL} from '../../services/global';
 
 export class UsersComponent implements OnInit {
 	
-	public title:string;
+	public tittle:string;
 	public identity;
 	public token;
 	public page;
@@ -23,14 +23,14 @@ export class UsersComponent implements OnInit {
 	public pages;
 	public users : User[];
 	public url;
-
+	public follows;
 
 	constructor(
 		private _route: ActivatedRoute,
 		private _router: Router,
 		private _userService: UserService
 		) {
-		this.title = 'Gente';
+		this.tittle = 'Gente';
 		this.identity = this._userService.getIdentity();
 		this.token = this._userService.getToken();
 		this.url = GLOBAL.url;
@@ -45,6 +45,11 @@ export class UsersComponent implements OnInit {
 		this._route.params.subscribe(params => {
 			let page = +params['page'];
 			this.page = page;
+	
+			if (!params['page']) {
+				page=1;
+			}
+			
 			if (!page) {
 				page =1;
 			}
@@ -74,6 +79,9 @@ export class UsersComponent implements OnInit {
 			this.total = response.total;
 			this.users = response.users;
 			this.pages = response.pages;
+			this.follows = response.users_following;
+			console.log(this.follows);
+
 			if (page>this.pages) {
 				this._router.navigate(['/gente',1]);
 			}
@@ -89,6 +97,15 @@ export class UsersComponent implements OnInit {
 			}
 		});
 	}
+	public followUserOver;
+	mouseEnter(user_id){
+		this.followUserOver=user_id;	
+	}
+	mouseLeave(user_id)
+	{
+		this.followUserOver=0;
+	}	
+
 }
 
 
