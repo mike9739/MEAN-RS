@@ -69,6 +69,7 @@
 	margin-right: 15px;
 
 }
+/*listado de usuarios(gente)*/
 .item_user .image_user img
 {
 	width: 120px;
@@ -87,3 +88,27 @@
 	width: 100% !important;
 }
 
+/*Sidebar*/
+.sidebar32{
+	width: 32%;
+	padding: 0px !important;
+}
+#user-card{
+	padding: 25px;
+	width: 32%;
+
+}
+
+
+#user-card .avatar
+{
+	width: 75px;
+	height: 75px;
+	border-radius: 100px;
+	overflow: hidden;
+	margin-right: 15px;
+}
+#user-card .avatar img
+{
+	width: 100%;
+}
