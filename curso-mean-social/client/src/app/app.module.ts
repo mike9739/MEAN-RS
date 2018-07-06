@@ -4,6 +4,8 @@ import {FormsModule} from '@angular/forms';
 //import {HttpModule} from '@angular/http';
 import {routing,appRoutingProviders} from './app.routing';
 import {HttpClientModule} from '@angular/common/http';
+import {MomentModule} from 'angular2-moment'
+
  //cargar componentes
 import { AppComponent } from './app.component';
 import {LoginComponent} from  './components/login/login.component';
@@ -12,6 +14,7 @@ import {HomeComponent} from './components/home/home.component';
 import {UserEditComponent} from './components/user-edit/user-edit.component';
 import {UsersComponent} from './components/users/users.component'
 import {SidebarComponent} from './components/sidebar/sidebar.component';
+import {TimelineComponent} from './components/timeline/timeline.component';
 
 
 
@@ -23,13 +26,15 @@ import {SidebarComponent} from './components/sidebar/sidebar.component';
     HomeComponent,
     UserEditComponent,
     UsersComponent,
-    SidebarComponent
+    SidebarComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     routing,
-    HttpClientModule
+    HttpClientModule,
+    MomentModule
 
   ],
   providers: [
