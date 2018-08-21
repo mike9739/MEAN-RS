@@ -90,12 +90,18 @@ function getFollowedUser(req,res)
 		if(err) return res.status(500).send({message: 'Error en el servidor'});
 		if(!follows) return res.status(404).send({message:'No tienes seguidores :('});
 
+		followUsersIds(req.user.sub).then((value) => {
 		return res.status(200).send({
 			total: total,
 			pages: Math.ceil(total/itemsPerPage),
-			follows
+			follows,
+			users_following: value.following,
+ 			users_follow_me: value.followed
+ 			
+
 
 		});
+			});
 
 
 	});
@@ -119,6 +125,42 @@ function getMyFollows(req,res)
 		return res.status(200).send({follows});
 	});
 
+}
+
+// duncion asincrona para deveolver el istado de follows y usuarios
+async function followUsersIds(user_id)
+{
+		var following = await Follow.find({"user":user_id}).select({'_id':0,'__v':0,'user':0}).exec((err,follows) => {
+		return follows;
+		});
+
+		var followed = await Follow.find({"followed":user_id}).select({'_id':0,'__v':0,'followed':0}).exec((err,follows) => {
+		return follows;
+	});
+
+//procesar following ids
+	var following_clean = [];
+
+		following.forEach((follow)=>
+			{
+				following_clean.push(follow.followed);
+
+			});
+		
+//procesar followed ids
+	var followed_clean = [];
+		followed.forEach((follow)=>{
+			followed_clean.push(follow.user);
+		});
+	
+
+
+
+
+		return {
+			following: following_clean,
+			followed: followed_clean
+		}
 }
 
 

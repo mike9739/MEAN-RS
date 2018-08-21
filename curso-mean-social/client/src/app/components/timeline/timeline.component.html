@@ -1,38 +1,93 @@
 <div class="col-lg-8">
-    <h1 class="h1-strong">{{title}}</h1>
+    <h1 class="h1-strong">{{title}}   </h1>
+    <button class="btn btn-xs btn-sm" (click)="refresh($event)"> mostrar nuevas</button>
     <div id="publications">
-    	<div *ngFor = "let publication of publications" class="item-publication">
-    		<div class="panel panel-default">
-    			<div class="panel-body">
+        <div *ngFor = "let publication of publications" class="item-publication">
+            <div class="panel panel-default">
+                <div class="panel-body">
 
-    				<div class="image_user pull-left">	
-						<a href="#">
-						<img src="{{url+'get-image-user/'+publication.user.image}}" *ngIf="publication.user.image"/>
-						<img src="assets/user-default.png" class="avatar-default" *ngIf="!publication.user.image"/>		
-						</a>
-					</div>
+                    <div class="image_user pull-left">  
+                        <a href="#">
+                        <img src="{{url+'get-image-user/'+publication.user.image}}" *ngIf="publication.user.image"/>
+                        <img src="assets/user-default.png" class="avatar-default" *ngIf="!publication.user.image"/>     
+                        </a>
+                    </div>
                     <div>
-        				<span class="user_name">{{publication.user.name + ' '+ publication.user.surname}}</span>
-                       &nbsp; | &nbsp;
+                       
+                            <a [routerLink]="['/perfil',publication.user._id]" class="user-name"> 
+                        {{publication.user.name + ' '+ publication.user.surname}}
+                            </a>
+                                       &nbsp; | &nbsp;
                         <span class="date">{{(publication.created_at | amFromUnix) | amLocale:'es' | amTimeAgo}}</span>
-    		        </div>
-    				<h4 class="publication-text pull-left">
-    				{{publication.text}}
-    				</h4>
-    			</div>
-    		</div>
-    		
-    	</div>
-        <div class="col-lg-12 text-center">
+                    </div>
+                    <h4 class="publication-text pull-left">
+                    {{publication.text}}
+                    </h4>
+                    <!--Eliminar publicaciones-->
+                    <div class="pull-right" *ngIf="publication.user._id == identity._id">
+                        &nbsp;
+                        <!-- Button HTML (to Trigger Modal) -->
+                        <a href="#myModal{{publication._id}}" role="button" class="btn btn-large btn-danger" data-toggle="modal">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                                      
+                        <!-- Modal HTML -->
+                        <div id="myModal{{publication._id}}" class="modal fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">Eliminar esta publicación</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>¿Estas seguro de que quieres borrar esta publicación?</p>
+                                        <p class="text-warning"><small>El contenido no se podra recuperar</small></p>
+                                        <p>{{publication.text}}</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-primary" (click)="deletePublication(publication._id)" data-dismiss="modal">Eliminar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                 
+                        
+
+                    <!---->
+                    <!--Mostrar y dejar de mostrar imagenes-->
+                    <div class="pull-right" *ngIf="publication.file !='null'">
+                    <button class="btn btn-primary pull-right" (click)="showThisImage(publication._id)" *ngIf="showImage != publication._id">
+                        <span class="glyphicon glyphicon-eye-open">
+                       
+                        </span>
+                    </button>
+                    <button class="btn btn-success pull-right" (click)="hideThisImage(publication._id)" *ngIf="showImage == publication._id" >
+                        <span class="glyphicon glyphicon-eye-close">
+                            Cerrar Imagen
+                        </span>
+                    </button>
+                    </div>
+
+                    <div class="col-lg-12" *ngIf="publication.file != 'null' && showImage == publication._id">
+                        <img src="{{url+'get-image-pub/'+publication.file}}" class="col-lg-12" />
+                    </div>
+                    <!---------------------------------------->
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-12 text-center" *ngIf="publications && publications.length">
         <p>
             <button class="btn btn-primary" (click)="viewMore()" *ngIf="!noMore"> 
                 Ver más publicaciones
             </button>
         </p>
         </div>
-    	
+        
     </div>
-    
 </div>
-<sidebar></sidebar>
+<sidebar (sended)="refresh($event)"></sidebar>
 <div class="clearfix"></div>

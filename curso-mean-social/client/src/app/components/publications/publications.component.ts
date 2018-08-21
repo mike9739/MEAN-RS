@@ -1,4 +1,4 @@
-import {Component , OnInit} from '@angular/core';
+import {Component , OnInit,Input} from '@angular/core';
 import {Router, ActivatedRoute,Params} from '@angular/router';
 import {Publication} from'../../models/publication';
 import {GLOBAL} from '../../services/global'
@@ -8,11 +8,11 @@ import {PublicationService} from '../../services/publication.service';
 
 
 @Component({
-	selector: 'timeline',
-	templateUrl:'./timeline.component.html',
+	selector: 'publications',
+	templateUrl:'./publications.component.html',
 	providers: [UserService,PublicationService]
 })
-export class TimelineComponent implements OnInit {
+export class PublicationsComponent implements OnInit {
 
     public identity;
     public token;
@@ -25,6 +25,7 @@ export class TimelineComponent implements OnInit {
     public itemsPerPage;
     public publications: Publication[];
     public showImage;
+    @Input() user:string;
     constructor(
         private _route: ActivatedRoute,
         private _router: Router,
@@ -32,7 +33,7 @@ export class TimelineComponent implements OnInit {
         private _publicationService:PublicationService
 
     ){
-        this.title='Timeline';
+        this.title='Publicaciones';
         this.identity = this._userService.getIdentity();
         this.token = this._userService.getToken();
         this.url = GLOBAL.url;
@@ -40,12 +41,12 @@ export class TimelineComponent implements OnInit {
     }
 
     ngOnInit(){
-        console.log('timeline component cargado correctamente');
-        this.getPublications(this.page);
+        console.log('Publications component cargado correctamente');
+        this.getPublications(this.user,this.page);
 
     }
-    getPublications(page,adding=false){
-        this._publicationService.getPublication(this.token,page).subscribe(response=>{
+    getPublications(user,page,adding=false){
+        this._publicationService.getPublicationUser(this.token,user,page).subscribe(response=>{
             if (response.publications) {
                 this.total=response.total_items;
                 this.pages = response.pages;
@@ -58,7 +59,7 @@ export class TimelineComponent implements OnInit {
                     var arrayB = response.publications;
                     this.publications = arrayA.concat(arrayB);
 
-                    $("html,body").animate({scrollTop:$('body').prop("scrollHeight")},500);
+                    $("html,body").animate({scrollTop:$('html').prop("scrollHeight")},500);
 
                 }
 
@@ -83,6 +84,7 @@ export class TimelineComponent implements OnInit {
             }
 
         });
+        console.log('Hola')
     }
     public noMore=false;
     viewMore(){
@@ -91,21 +93,21 @@ export class TimelineComponent implements OnInit {
             this.noMore = true;
         }
       
-        this.getPublications(this.page,true);
+        this.getPublications(this.user,this.page,true);
     }
-
-    refresh(event = null){
-        this.getPublications(1);
-
-    }
-    showThisImage(id){
+        showThisImage(id){
         this.showImage=id;
     }
     hideThisImage(id)
     {
         this.showImage=0;
     }
-    deletePublication(id)
+        refresh(event = null){
+        this.getPublications(this.user,1,true);
+
+    }
+
+     deletePublication(id)
     {
         this._publicationService.deletePublication(this.token,id).subscribe(
             response =>{

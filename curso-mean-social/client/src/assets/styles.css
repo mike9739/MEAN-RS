@@ -110,7 +110,7 @@
 {
 	width: 75px;
 	height: 75px;
-	border-radius: 100px;
+
 	overflow: hidden;
 	margin-right: 15px;
 }
@@ -176,5 +176,112 @@ min-height: 500px;
 }
 #publications .date{
 	color: gray;
-	font-size: 10px;
+	font-size: 9px;
+}
+/*PROFILE*/
+#data-profile{
+	min-height: 500px;
+	text-align: center;
+}
+#data-profile .avatar{
+	width: 185px;
+	height: 185px;
+	border-radius: 400px;
+	overflow: hidden;
+	margin-right: 15px;
+	margin: 0px auto;
+}
+#data-profile .avatar img{
+	width: 110%;
+}
+#data-profile .user-name {
+	margin-top: 25px;
+}
+#data-profile .user-name .label{
+	margin-bottom: 15px;
+}
+
+#data-profile .user-name .name{
+	font-size: 24px;
+	font-weight: bold;
+	color: #595959;
+}
+#data-profile .user-name .nick{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #00b8ff;
+}
+#data-profile .label
+{
+	font-size: 15px;
+}
+#data-profile .user-name  .btn-warning{
+	background-color: #48b3e6 !important;
+	border-color: #48b3e6 !important;
+}
+/*#data-profile .stats{
+	border-top:   1px solid #009FFB ;
+	margin-top: 20px;
+	margin-left: 335px;
+	padding top:  20px;
+	padding left: 40px;
+	width: 300px;
+
+}
+*/
+#data-profile .stats{
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+	margin-left: 250px;
+	width: 550px;
+
+}
+#data-profile.stats a:hover{
+	text-decoration: none;
+
+}
+#data-profile .stats a:hover .number-stats{
+	color: #ccc
+}
+#data-profile .label-stats,
+#data-profile .number-stats{
+	display: block;
+	text-align: center;
+	transition: 300ms;
+
+}
+#data-profile .label-stats{
+	font-weight: bold;
+	font-size: 24px;
+	color: #555
+}
+#data-profile .number-stats{
+	font-weight: bold;
+	color: #00b8ff;
+	font-size:20px;
+}
+#data-profile .following-data{
+	float: left;
+	padding-right: 18px;
+	padding-left: 18px;
+	margin-top:  10px;
+
+	
+
+}
+#data-profile.following-data:last-child{
+	border:none;
+}
+#data-profile .following-data:first-child{
+	padding-left: 6px;
+}
+#data-profile .publications{
+	margin-top: 40px;
+
+}
+#publications .empty{
+	color:#00b8ff;
+	font-size: 25px;
+	font-weight: bold;
+
 }

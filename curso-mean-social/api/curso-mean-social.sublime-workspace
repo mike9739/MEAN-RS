@@ -4,24 +4,316 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"follow"
+			],
+			[
+				"sub",
+				"sub"
+			],
+			[
+				"pa",
+				"page\tparameter"
+			],
+			[
+				"ret",
+				"return\tkeyword"
+			],
+			[
+				"a",
+				"any\tkeyword"
+			],
+			[
+				"Fo",
+				"FollowingComponent\talias"
+			],
+			[
+				"fo",
+				"following.component\tscript"
+			],
+			[
+				"i",
+				"import\tkeyword"
+			],
+			[
+				"u",
+				"user\tproperty"
+			],
+			[
+				"s",
+				"subscribe\tmethod"
+			],
+			[
+				"pu",
+				"_publicationService\tproperty"
+			],
+			[
 				"p",
 				"publication"
 			],
 			[
+				"publication",
+				"publication._id"
+			],
+			[
+				"publica",
+				"publicación"
+			],
+			[
+				"n",
+				"nbsp"
+			],
+			[
+				"pull",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"publ",
+				"publication"
+			],
+			[
+				"gl",
+				"glyphicon-calendar \tBootstrap 3 Class"
+			],
+			[
+				"btn",
+				"btn-warning \tBootstrap 3 Class"
+			],
+			[
+				"glyphicon-eye",
+				"glyphicon-eye-open \tBootstrap 3 Class"
+			],
+			[
+				"glyphicon-close",
+				"glyphicon-eye-close \tBootstrap 3 Class"
+			],
+			[
 				"pul",
-				"pull-left \tBootstrap 3 Class"
+				"pull-right \tBootstrap 3 Class"
 			],
 			[
-				"pa",
-				"panel-default \tBootstrap 3 Class"
+				"glyp",
+				"glyphicon-book \tBootstrap 3 Class"
 			],
 			[
-				"_",
-				"_router\tproperty"
+				"c",
+				"class\tAttr"
+			],
+			[
+				"col",
+				"col-lg-12 \tBootstrap 3 Class"
 			],
 			[
 				"res",
-				"response\tparameter"
+				"result\tparameter"
+			],
+			[
+				"file",
+				"filesToUpload\tproperty"
+			],
+			[
+				"fil",
+				"filesToUpload\tproperty"
+			],
+			[
+				"se",
+				"services\tdirectory"
+			],
+			[
+				"publi",
+				"publications"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"co",
+				"col-lg-12 \tBootstrap 3 Class"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"getPublica",
+				"getPublicationsUser〔class〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"publicac",
+				"publicaciones"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"border-tp",
+				"border-top\tproperty"
+			],
+			[
+				"use",
+				"user._id"
+			],
+			[
+				"foll",
+				"following"
+			],
+			[
+				"fol",
+				"following"
+			],
+			[
+				"t",
+				"token\tproperty"
+			],
+			[
+				"_",
+				"_followService\tproperty"
+			],
+			[
+				"bo",
+				"border-color\tproperty"
+			],
+			[
+				"b",
+				"background-color\tproperty"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"laber",
+				"label-primary \tBootstrap 3 Class"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"han",
+				"handleError"
+			],
+			[
+				"get",
+				"getCounters\tmethod"
+			],
+			[
+				"if",
+				"ifelse\tif … else …"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"pr",
+				"profile\tdirectory"
+			],
+			[
+				"Pr",
+				"ProfileComponent\talias"
+			],
+			[
+				"ge",
+				"getIdentity\tmethod"
+			],
+			[
+				"Ac",
+				"ActivatedRoute\talias"
+			],
+			[
+				"te",
+				"templateUrl\tproperty"
+			],
+			[
+				"U",
+				"user.service\tscript"
+			],
+			[
+				"m",
+				"models\tdirectory"
+			],
+			[
+				"R",
+				"Router\talias"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"bt",
+				"btn-xs \tBootstrap 3 Class"
+			],
+			[
+				"Eve",
+				"EventEmitter\talias"
+			],
+			[
+				"O",
+				"Output\talias"
+			],
+			[
+				"In",
+				"Input\talias"
+			],
+			[
+				"r",
+				"_router\tproperty"
+			],
+			[
+				"ac",
+				"ActivatedRoute\talias"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"arr",
+				"arrayB\tlocal var"
 			],
 			[
 				"err",
@@ -32,20 +324,8 @@
 				"errorMessage\tlocal var"
 			],
 			[
-				"t",
-				"token\tproperty"
-			],
-			[
-				"pu",
-				"PublicationService\talias"
-			],
-			[
 				"fr",
 				"from\tkeyword"
-			],
-			[
-				"a",
-				"alert-info \tBootstrap 3 Class"
 			],
 			[
 				"alert",
@@ -88,100 +368,32 @@
 				"publicación"
 			],
 			[
-				"f",
-				"form-control \tBootstrap 3 Class"
-			],
-			[
-				"te",
-				"textarea\tTag"
-			],
-			[
-				"col",
-				"col-lg-11 \tBootstrap 3 Class"
-			],
-			[
 				"h",
 				"h3\tTag"
-			],
-			[
-				"se",
-				"services\tdirectory"
-			],
-			[
-				"i",
-				"import\timports a module …"
-			],
-			[
-				"tex",
-				"text-decoration\tproperty"
 			],
 			[
 				"ma",
 				"margin-top\tproperty"
 			],
 			[
-				"border",
-				"border-top\tproperty"
-			],
-			[
-				"pad",
-				"padding-left\tproperty"
-			],
-			[
 				"bor",
 				"border-right-width\tproperty"
-			],
-			[
-				"mar",
-				"margin-left\tproperty"
 			],
 			[
 				"ds",
 				"display\tproperty"
 			],
 			[
-				"co",
-				"color\tproperty"
-			],
-			[
 				"font-s",
 				"font-size\tproperty"
-			],
-			[
-				"c",
-				"class\tAttr"
 			],
 			[
 				"pull-t",
 				"pull-right \tBootstrap 3 Class"
 			],
 			[
-				"s",
-				"sidebar.component\tscript"
-			],
-			[
-				"ge",
-				"getStats\tmethod"
-			],
-			[
-				"pr",
-				"private\tkeyword"
-			],
-			[
 				"g",
 				"global\tscript"
-			],
-			[
-				"bt",
-				"btn-success \tBootstrap 3 Class"
-			],
-			[
-				"fo",
-				"followed\tparameter"
-			],
-			[
-				"fol",
-				"Follow\talias"
 			],
 			[
 				"ob",
@@ -196,23 +408,11 @@
 				"headers\tlet"
 			],
 			[
-				"In",
-				"Injectable\talias"
-			],
-			[
-				"btn",
-				"btn-warning"
-			],
-			[
 				"glyphicon-minus",
 				"glyphicon-minus-sign \tBootstrap 3 Class"
 			],
 			[
 				"us",
-				"user._id"
-			],
-			[
-				"user",
 				"user._id"
 			],
 			[
@@ -232,16 +432,8 @@
 				"glyphicon-heart \tBootstrap 3 Class"
 			],
 			[
-				"glyp",
-				"glyphicon-camera \tBootstrap 3 Class"
-			],
-			[
 				"btn-e",
 				"btn-danger \tBootstrap 3 Class"
-			],
-			[
-				"font",
-				"font-weight\tproperty"
 			],
 			[
 				"w",
@@ -268,28 +460,8 @@
 				"panel-title \tBootstrap 3 Class"
 			],
 			[
-				"n",
-				"ngOnInit\tmethod"
-			],
-			[
-				"get",
-				"getToken\tmethod"
-			],
-			[
-				"im",
-				"implements\tkeyword"
-			],
-			[
-				"cl",
-				"class\tclass …"
-			],
-			[
 				"Use",
 				"UserService\talias"
-			],
-			[
-				"bo",
-				"border-radius\tproperty"
 			],
 			[
 				"Gl",
@@ -312,20 +484,12 @@
 				"xhr\tlocal var"
 			],
 			[
-				"fu",
-				"function\tkeyword"
-			],
-			[
 				"XML",
 				"XMLHttpRequest\tvar"
 			],
 			[
 				"Glo",
 				"GLOBAL\talias"
-			],
-			[
-				"use",
-				"user_isset"
 			],
 			[
 				"va",
@@ -336,10 +500,6 @@
 				"console"
 			],
 			[
-				"u",
-				"url\tproperty"
-			],
-			[
 				"ale",
 				"alert-success \tBootstrap 3 Class"
 			],
@@ -348,209 +508,49 @@
 				"Observable\talias"
 			],
 			[
-				"r",
-				"routerLink"
-			],
-			[
 				"imp",
 				"import\tkeyword"
 			],
 			[
 				"User",
 				"User\talias"
-			],
-			[
-				"com",
-				"Component\talias"
-			],
-			[
-				"impo",
-				"import\tkeyword"
-			],
-			[
-				"set",
-				"setItem\tmethod"
-			],
-			[
-				"e",
-				"else\tkeyword"
-			],
-			[
-				"if",
-				"if\tif …"
-			],
-			[
-				"_r",
-				"_router\tproperty"
-			],
-			[
-				"navbar-nv",
-				"navbar-nav"
-			],
-			[
-				"glyphicon-l",
-				"glyphicon-log-out \tBootstrap 3 Class"
-			],
-			[
-				"drop",
-				"dropdown-menu \tBootstrap 3 Class"
-			],
-			[
-				"glyphicon-log",
-				"glyphicon-log-out \tBootstrap 3 Class"
-			],
-			[
-				"glyphicon-c",
-				"glyphicon-cog \tBootstrap 3 Class"
-			],
-			[
-				"d",
-				"dropdown-menu-left \tBootstrap 3 Class"
-			],
-			[
-				"ca",
-				"caret \tBootstrap 3 Class"
-			],
-			[
-				"dropdown-",
-				"dropdown-toggle \tBootstrap 3 Class"
-			],
-			[
-				"nav",
-				"navbar-right \tBootstrap 3 Class"
-			],
-			[
-				"text-a",
-				"text-align"
-			],
-			[
-				"btn-fe",
-				"btn-default \tBootstrap 3 Class"
-			],
-			[
-				"ro",
-				"routerLinkActive]=\"['active"
-			],
-			[
-				"col-lg-o",
-				"col-lg-offset-2 \tBootstrap 3 Class"
-			],
-			[
-				"Com",
-				"Component\talias"
-			],
-			[
-				"Do",
-				"DoCheck\talias"
-			],
-			[
-				"On",
-				"OnInit\talias"
-			],
-			[
-				"glyphicon-us",
-				"glyphicon-user \tBootstrap 3 Class"
-			],
-			[
-				"glyphicon-lo",
-				"glyphicon-log-in \tBootstrap 3 Class"
-			],
-			[
-				"navba",
-				"navbar-right \tBootstrap 3 Class"
-			],
-			[
-				"navbar-n",
-				"navbar-nav \tBootstrap 3 Class"
-			],
-			[
-				"na",
-				"navbar \tBootstrap 3 Class"
-			],
-			[
-				"loca",
-				"localStorage\tvar"
-			],
-			[
-				"lo",
-				"localStorage\tvar"
-			],
-			[
-				"htt",
-				"HttpHeaders\talias"
-			],
-			[
-				"btn-s",
-				"btn-success \tBootstrap 3 Class"
-			],
-			[
-				"nick",
-				"nickname"
-			],
-			[
-				"ret",
-				"return\tkeyword"
-			],
-			[
-				"USer",
-				"UserService\talias"
-			],
-			[
-				"borde",
-				"border-bottom"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"For",
-				"FormsModule\talias"
-			],
-			[
-				"in",
-				"input\tTag"
-			],
-			[
-				"di",
-				"div\tTag"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/timeline/timeline.component.html",
+			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/following/following.component.ts",
 			"settings":
 			{
-				"buffer_size": 846,
+				"buffer_size": 3134,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
+			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/following/following.component.html",
 			"settings":
 			{
-				"buffer_size": 2715,
+				"buffer_size": 2203,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.ts",
+			"file": "controllers/user.js",
 			"settings":
 			{
-				"buffer_size": 1450,
+				"buffer_size": 8776,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.html",
+			"file": "controllers/follow.js",
 			"settings":
 			{
-				"buffer_size": 2074,
+				"buffer_size": 3664,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -568,7 +568,15 @@
 		"selected_items":
 		[
 			[
-				"pa",
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -576,7 +584,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
+				"pa",
 				"Package Control: Install Package"
 			],
 			[
@@ -596,7 +604,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 176.0,
 		"history":
 		[
 		]
@@ -613,37 +621,49 @@
 	"expanded_folders":
 	[
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/following",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets"
 	],
 	"file_history":
 	[
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/timeline/timeline.component.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/publication.service.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/user.service.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/publication.js",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/routes/publication.js",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/follow.js",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/user.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.routing.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.html",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.module.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/timeline/timeline.component.html",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/users/users.component.html",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.html",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/users/users.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/following/following.component.html",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/follow.service.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/timeline/timeline.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/publications/publications.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/publications/publications.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/timeline/timeline.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/profile/profile.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/publication.js",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/upload.service.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/profile/profile.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/publication.service.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/routes/publication.js",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/users/users.component.ts",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/users/users.component.html",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home/home.component.html",
+		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/user.service.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/register/register.component.html",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/user-edit/user-edit.component.html",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/user-edit/user-edit.component.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/models/user.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/services/upload.service.ts",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/user.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/login/login.component.ts",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/app.component.css",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/home/home.component.ts",
@@ -668,7 +688,6 @@
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/models/publication.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/routes/user.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/models/follow.js",
-		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/controllers/follow.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/routes/follow.js",
 		"/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/api/index.js",
 		"/C/Users/migu_/OneDrive - Universidad de Guanajuato/ABD/motorolam.sql",
@@ -717,231 +736,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/timeline/timeline.component.html",
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/following/following.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 846,
+						"buffer_size": 3134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								749,
-								749
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										558,
-										559
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										549,
-										550
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										745,
-										748
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										178,
-										181
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/assets/styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1279,
-								1288
+								1924,
+								1924
 							]
 						],
 						"settings":
@@ -954,8 +766,8 @@
 								{
 									"1":
 									[
-										1123,
-										1124
+										2032,
+										2033
 									]
 								},
 								"icon":
@@ -970,8 +782,8 @@
 								{
 									"1":
 									[
-										1028,
-										1029
+										1772,
+										1773
 									]
 								},
 								"unmatched":
@@ -980,36 +792,31 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1020,21 +827,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1042,8 +854,8 @@
 								{
 									"1":
 									[
-										1309,
-										1310
+										2032,
+										2033
 									]
 								},
 								"icon":
@@ -1058,8 +870,8 @@
 								{
 									"1":
 									[
-										1288,
-										1289
+										1772,
+										1773
 									]
 								},
 								"unmatched":
@@ -1068,36 +880,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1108,213 +915,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1311.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1341,
-								1341
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 26,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1441,
-										1442
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1305,
-										1306
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
 							"translate_tabs_to_spaces": false,
@@ -1327,27 +947,205 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/sidebar/sidebar.component.html",
+					"buffer": 1,
+					"file": "/C/Users/migu_/Documents/project/MEAN-RS/curso-mean-social/client/src/app/components/following/following.component.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2074,
+						"buffer_size": 2203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1429,
-								1429
+								818,
+								818
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 25,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controllers/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4178,
+								4178
 							]
 						],
 						"settings":
@@ -1361,24 +1159,24 @@
 								{
 									"1":
 									[
-										1351,
-										1352
+										4178,
+										4179
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1336,
-										1337
+										4161,
+										4162
 									]
 								},
 								"unmatched":
@@ -1387,36 +1185,31 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1427,21 +1220,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1449,24 +1247,24 @@
 								{
 									"1":
 									[
-										1425,
-										1428
+										4178,
+										4179
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1249,
-										1252
+										4161,
+										4162
 									]
 								},
 								"unmatched":
@@ -1475,31 +1273,214 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controllers/follow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1620,
+								1620
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2341,
+										2342
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1590,
+										1591
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2341,
+										2342
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1590,
+										1591
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1515,36 +1496,55 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
