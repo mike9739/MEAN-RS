@@ -18,7 +18,7 @@
 			
 			<div>
 				<button class="btn btn-primary" *ngIf="!following" (click)="followUser(user._id)">Seguir</button>
-				<button class="btn btn-warning" *ngIf="following" (click)="unfollowUser(user._id)" 
+				<button class="btn btn-danger" *ngIf="following" (click)="unfollowUser(user._id)" 
 				(mouseenter)="mouseEnter(user._id)"
 				 (mouseleave)="mouseLeave()"
 				  [class.btn-primary]="user._id == followUserOver">
@@ -39,22 +39,22 @@
 		<div class="following-data">
 			<a href="#">
 				<span class="label-stats">
-					Siguiendo
+					Número de empleados
 				</span>
 				<span class="number-stats">
 
-					{{stats.following}}
+					{{user.employees}}
 				</span>
 			</a>
 		</div>
 		<div class="following-data">
 			<a href="#">
 				<span class="label-stats">
-					Seguidores
+					Ganancias Anuales
 				</span>
 				<span class="number-stats">
 
-					{{stats.followed}}
+					{{user.anualprofit}}
 				</span>
 			</a>
 		</div>
@@ -77,4 +77,3 @@
 	
 
 </div>
-<sidebar></sidebar>

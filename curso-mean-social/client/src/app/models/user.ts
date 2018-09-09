@@ -10,6 +10,8 @@ export class User {
 	public image : string,
 	public gettoken : any,
 	public _id:any,
-	public rfc:any
+	public rfc:any,
+	public anualprofit:any,
+	public employees:any
 	) {}
 }

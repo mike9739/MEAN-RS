@@ -10,6 +10,8 @@ var UserSchema = Schema({
 	password:  String,
 	role: String,
 	image : String,
-	rfc:String
+	rfc:String,
+	employees:String,
+	anualprofit:String
 });
 module.exports = mongoose.model('User',UserSchema);
