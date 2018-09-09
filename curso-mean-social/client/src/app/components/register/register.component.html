@@ -24,11 +24,16 @@
  		</span>
 
  	<p>
- 		<label>Nickname</label>
+ 		<label>Nombre de la empresa</label>
  		<input type="text" name="nick" #nick="ngModel" [(ngModel)]="user.nick" class="form-control" required />
  		<span *ngIf="!nick.valid && nick.touched">
- 		 El nickname es obligatorio
+ 		 El nombre de la empresa es obligatorio
  		</span>
+ 	</p>
+ 	<p>
+ 		<label>RFC</label>
+ 		<input type="text" name="RFC" #RFC="ngModel" [(ngModel)]="user.rfc" class="form-control">
+ 		<span ></span>
  	</p>
  	 	<p>
  		<label>Correo electrónico</label>
@@ -37,6 +42,7 @@
  		 El email es obligatorio
  		</span>
  	</p>
+ 	
  	 <p>
  		<label>Contraseña</label>
  		<input type="password"  name="password" #password="ngModel" [(ngModel)]="user.password" class="form-control" required />

@@ -21,7 +21,7 @@ export class AppComponent implements OnInit,DoCheck {
   		private _userService:UserService
   	)
   {
-  	this.title ='Social Link ';
+  	this.title ='PyME Conecta ';
     this.url = GLOBAL.url;
   }
   ngOnInit(){

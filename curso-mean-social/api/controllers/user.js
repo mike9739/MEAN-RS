@@ -30,8 +30,9 @@ function saveUser(req,res){
 		user.nick = params.nick;
 		user.surname = params.surname;
 		user.email = params.email;
-		user.role = 'ROLE_USER'
+		user.role = 'ROLE_USER';
 		user.image = null;
+		user.rfc = params.rfc;
 		
 		//Comprobación de usuarios duplicados
 		User.find({ $or: [

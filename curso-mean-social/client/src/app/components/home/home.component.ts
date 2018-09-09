@@ -7,7 +7,7 @@ export class HomeComponent implements OnInit
  {
  	public tittle : string;
 	constructor() {
-		this.tittle = 'Bienvenido';
+		this.tittle = 'PyME Conecta';
 	}
 	ngOnInit(){
 		console.log('home.component cargado!');

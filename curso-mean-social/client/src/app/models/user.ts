@@ -9,6 +9,7 @@ export class User {
 	public role: string,
 	public image : string,
 	public gettoken : any,
-	public _id:any
+	public _id:any,
+	public rfc:any
 	) {}
 }
