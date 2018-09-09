@@ -12,6 +12,7 @@ var UserSchema = Schema({
 	image : String,
 	rfc:String,
 	employees:String,
-	anualprofit:String
+	anualprofit:String,
+	score:String
 });
 module.exports = mongoose.model('User',UserSchema);

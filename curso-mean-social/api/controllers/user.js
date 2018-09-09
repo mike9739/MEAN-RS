@@ -35,6 +35,7 @@ function saveUser(req,res){
 		user.rfc = params.rfc;
 		user.anualprofit = params.anualprofit;
 		user.employees = params.employees;
+		user.score = params.score;
 		
 		//Comprobación de usuarios duplicados
 		User.find({ $or: [

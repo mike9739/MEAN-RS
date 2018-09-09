@@ -1,4 +1,4 @@
-<div class="col-lg-8">
+<div class="col-lg-8 col-lg-offset-2">
 	<h1 class="h1-strong">
 		{{title}}
 	</h1>
@@ -61,11 +61,11 @@
 		<div class="following-data">
 			<a href="#">
 				<span class="label-stats">
-					Publicaciones
+					Puntuación
 				</span>
 				<span class="number-stats">
 
-					{{stats.publications}}
+					{{user.score}}
 				</span>
 			</a>
 		</div>
@@ -74,6 +74,7 @@
 	<div class="col-lg-12 publications" *ngIf="user">
 			<publications [user]="user._id"></publications>
 	</div>
-	
+
+<sidebar></sidebar>
 
 </div>

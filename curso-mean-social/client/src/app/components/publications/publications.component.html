@@ -44,7 +44,7 @@
     		</div>
     		
     	</div>
-       <div class="col-lg-12 text-center empty" *ngIf="publications && publications.length==0"> Al parecer este usuario no tiene publicaciones :(</div>
+       <div class="col-lg-12 text-center empty" *ngIf="publications && publications.length==0"></div>
         <div class="col-lg-12 text-center" *ngIf="publications && publications.length">
         <p>
             <button class="btn btn-primary" (click)="viewMore()" *ngIf="!noMore"> 

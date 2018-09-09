@@ -12,6 +12,7 @@ export class User {
 	public _id:any,
 	public rfc:any,
 	public anualprofit:any,
-	public employees:any
+	public employees:any,
+	public score:any
 	) {}
 }
